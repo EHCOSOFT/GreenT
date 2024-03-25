@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,viewport-fit=cover,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>GreenT</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="container">
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <i class="ico i-menu"></i>
+            </div>
+            <nav class="header-menu">
+                <a href="#"><i class="ico i-circle-user"></i></a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="ico i-wallet"></i>그린티 지갑
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ico i-greent-purchase"></i>그린티 구매
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ico i-greent"></i>보유 원화
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ico i-lock-2"></i>락업
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ico i-alert"></i>알림
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ico i-circle-user-sm"></i>프로필
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ico i-logout"></i>로그아웃
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="content">
+            <div class="mygreent">
+                <h1>나의 그린티 현황</h1>
+                <hr>
+                <div class="cont-area">
+                    <div class="quantity">
+                        <p>보유수량</p>
+                        <h3>2,500,000 <span>TBag</span></h3>
+                    </div>
+                    <ul class="quantity-bot">
+                        <li>락업</li>
+                        <li>500,000</li>
+                        <li>TBag</li>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="tabs">
+                    <div class="tab">
+                        <div class="tab-list">
+                            <button class="tab-list-item active-tab-list-item" data-target="deposit">입금하기</button>
+                            <button class="tab-list-item" data-target="withdraw">출금하기</button>
+                            <button class="tab-list-item" data-target="dwHistory">입출금내역</button>
+                        </div>
+                        <div class="tab-content active-tab-content" id="deposit">
+                            <div class="qr-code">
+                                <img src="img/qr-code.png" alt="">
+                                <p>회원님에게 할당 된 아래 주소로<br>그린티를 입금할 수 있습니다.</p>
+                            </div>
+                            <hr>
+                            <div class="cont-area">
+                                <div class="eposit-account">
+                                    <p><i class="ico i-wallet"></i>내 입금 주소(입금전용) → <span>그린티 TBag</span></p>
+                                    <div class="input-group">
+                                        <input type="text">
+                                        <i class="ico i-copy"></i>
+                                    </div>
+                                    <h6>※ 위 주소는 입금전용 주소입니다.</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="withdraw">
+                            <div class="withdraw">
+                                <div class="sub-tabs">
+                                    <div class="sub-tab">
+                                        <div class="sub-tab-list">
+                                            <button class="sub-tab-list-item active-tab-list-item"
+                                                data-target="internalTransmission">내부전송</button>
+                                            <button class="sub-tab-list-item"
+                                                data-target="externalTransmission">외부전송</button>
+                                        </div>
+                                        <div class="tab-content active-tab-content" id="internalTransmission">
+                                            <div class="cont-area">
+                                                <div class="internal-tra">
+                                                    <div class="input-group">
+                                                        <label for=""><i class="ico i-withdraw-address"></i>출금주소</label>
+                                                        <input type="text" placeholder="출금할 주소 입력">
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <label for=""><i class="ico withdraw-quantity"></i>출금수량</label>
+                                                        <input type="text" placeholder="최소 출금 수량 10,000TBag">
+                                                    </div>
+                                                    <div class="mag-group">
+                                                        <button type="button" class="active">10%</button>
+                                                        <button type="button">25%</button>
+                                                        <button type="button">50%</button>
+                                                        <button type="button">최대</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="container">
+                                                <p>총 출금 <span>0 TBag</span></p>
+                                                <h6><i class="ico i-withdraw-address"></i>출금수수료(2%)<span>0 TBag</span></h6>
+                                                <button type="button" class="btn btn-lg btn-primary">출금하기</button>
+                                                <span class="withdraw-info-title">※출금 유의사항</span>
+                                                <ul class="withdraw-info">
+                                                    <li>- 디지털 자산의 특성 상 출금신청이 완료되면 취소가 불가합니다.</li>
+                                                    <li>- 다른 지갑으로 잘못 송금하는 경우 환불이 불가합니다.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="tab-content" id="externalTransmission">
+                                            <div class="cont-area">
+                                                <div class="internal-tra">
+                                                    <div class="input-group">
+                                                        <label for=""><i class="ico i-withdraw-address"></i>출금주소</label>
+                                                        <input type="text" placeholder="출금할 주소 입력">
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <label for=""><i class="ico withdraw-quantity"></i>출금수량</label>
+                                                        <input type="text" placeholder="최소 출금 수량 10,000TBag">
+                                                    </div>
+                                                    <div class="mag-group">
+                                                        <button type="button" class="active">10%</button>
+                                                        <button type="button">25%</button>
+                                                        <button type="button">50%</button>
+                                                        <button type="button">최대</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="container">
+                                                <p>총 출금 <span>0 TBag</span></p>
+                                                <h6><i class="ico i-withdraw-address"></i>출금수수료(2%)<span>0 TBag</span></h6>
+                                                <button type="button" class="btn btn-lg btn-primary">출금하기</button>
+                                                <span class="withdraw-info-title">※출금 유의사항</span>
+                                                <ul class="withdraw-info">
+                                                    <li>- 디지털 자산의 특성 상 출금신청이 완료되면 취소가 불가합니다.</li>
+                                                    <li>- 다른 지갑으로 잘못 송금하는 경우 환불이 불가합니다.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content" id="dwHistory">
+                            <div class="dw-history">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>입금</td>
+                                            <td>2024.03.11</td>
+                                            <td>2,000,000TBag</td>
+                                        </tr>
+                                        <tr>
+                                            <td>내부출금</td>
+                                            <td>2024.03.11</td>
+                                            <td>2,000,000TBag</td>
+                                        </tr>
+                                        <tr>
+                                            <td>내부출금</td>
+                                            <td>2024.03.11</td>
+                                            <td>2,000,000TBag</td>
+                                        </tr>
+                                        <tr>
+                                            <td>내부출금</td>
+                                            <td>2024.03.11</td>
+                                            <td>2,000,000TBag</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

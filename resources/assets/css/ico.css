@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+.ico {
+    background-size: cover !important;
+    display: inline-block;
+}
+
+.i-lock {
+    background: url(../img/ico/i-lock.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-back-del {
+    background: url(../img/ico/i-back-del.png);
+    height: 32px;
+    width: 32px;
+}
+
+.i-user {
+    background: url(../img/ico/i-user.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-menu {
+    background: url(../img/ico/i-menu.png);
+    height: 32px;
+    width: 32px;
+}
+
+.i-circle-user {
+    background: url(../img/ico/i-circle-user.png);
+    height: 40px;
+    width: 40px;
+}
+
+.i-wallet {
+    background: url(../img/ico/i-wallet.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-greent-purchase {
+    background: url(../img/ico/i-greent-purchase.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-greent {
+    background: url(../img/ico/i-greent.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-lock-2 {
+    background: url(../img/ico/i-lock-2.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-circle-user-sm {
+    background: url(../img/ico/i-circle-user.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-alert {
+    background: url(../img/ico/i-alert.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-logout {
+    background: url(../img/ico/i-logout.png);
+    height: 20px;
+    width: 20px;
+}
+
+.i-copy {
+    background: url(../img/ico/i-copy.png);
+    height: 24px;
+    width: 24px;
+}
+
+.i-withdraw-quantity {
+    background: url(../img/ico/i-withdraw-quantity.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-withdraw-address {
+    background: url(../img/ico/i-withdraw-address.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-account-info {
+    background: url(../img/ico/i-account-info.png);
+    height: 16px;
+    width: 16px;
+}
+
+.i-alarm {
+    background: url(../img/ico/i-alarm.png);
+    height: 28px;
+    width: 28px;
+}
